@@ -1,5 +1,5 @@
 {
-  "name": "react-reality",
+  "name": "react-realities",
   "private": false,
   "version": "0.0.0",
   "type": "module",
@@ -28,13 +28,13 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/react-reality.es.js",
-      "require": "./dist/react-reality.umd.js"
+      "import": "./dist/react-realities.es.js",
+      "require": "./dist/react-realities.umd.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
-  "main": "./dist/react-reality.umd.js",
-  "module": "./dist/react-reality.es.js",
+  "main": "./dist/react-realities.umd.js",
+  "module": "./dist/react-realities.es.js",
   "types": "./dist/index.d.ts",
   "devDependencies": {
     "@google/model-viewer": "^3.1.1",

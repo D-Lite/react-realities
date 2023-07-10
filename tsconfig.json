@@ -19,7 +19,7 @@
      "declarationMap": true,
     "baseUrl": ".",
      "paths": {
-      "react-reality": [ "src/components/index.ts" ]
+      "react-realities": [ "src/components/index.ts" ]
     },
     "rootDir": "src",
     "typeRoots": [

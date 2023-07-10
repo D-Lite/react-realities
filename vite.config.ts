@@ -23,9 +23,9 @@ export default defineConfig((configEnv) => ({
   build: {
     lib: {
       entry: resolve('src', 'components/index.ts'),
-      name: 'ReactReality',
+      name: 'ReactRealities',
       formats: ['es', 'umd'],
-      fileName: (format) => `react-reality.${format}.js`,
+      fileName: (format) => `react-realities.${format}.js`,
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)],
