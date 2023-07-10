@@ -37,6 +37,7 @@
   "module": "./dist/react-reality.es.js",
   "types": "./dist/index.d.ts",
   "devDependencies": {
+    "@google/model-viewer": "^3.1.1",
     "@types/node": "^20.4.1",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",

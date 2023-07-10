@@ -19,11 +19,12 @@
      "declarationMap": true,
     "baseUrl": ".",
      "paths": {
-      "react-reality": [ "src/component/index.ts" ]
+      "react-reality": [ "src/components/index.ts" ]
     },
+    "rootDir": "src",
     "typeRoots": [
       "node_modules/@types",
-      "src/component/index.d.ts"
+      "src/components/index.d.ts"
     ]
   },
   "include": ["src"],

@@ -1,3 +1,1 @@
-import ModelViewerComponent from './ModelViewer'
-
-export { ModelViewerComponent as ModelViewer }
+export { default as ModelViewer } from './ModelViewer'

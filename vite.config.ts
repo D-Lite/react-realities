@@ -17,12 +17,12 @@ export default defineConfig((configEnv) => ({
       linters: [new EsLinter({ configEnv })],
     }),
     dts({
-      include: ['src/component/'],
+      include: ['src/components/'],
     }),
   ],
   build: {
     lib: {
-      entry: resolve('src', 'component/index.ts'),
+      entry: resolve('src', 'components/index.ts'),
       name: 'ReactReality',
       formats: ['es', 'umd'],
       fileName: (format) => `react-reality.${format}.js`,
