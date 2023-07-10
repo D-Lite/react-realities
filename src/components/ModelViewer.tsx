@@ -1,4 +1,5 @@
 import '@google/model-viewer'
+import React from 'react'
 
 export interface IGoogleModelViewer {
   src: string
@@ -13,7 +14,7 @@ const ModelViewerComponent = ({ src, srcalt, loading, ar }: IGoogleModelViewer) 
     <div>
       <model-viewer
         src={src ? src : './src/assets/couch.glb'}
-        src-alt={srcalt}
+        alt={srcalt}
         ar={ar}
         shadow-intensity="1"
         camera-controls
