@@ -1,5 +1,7 @@
 # REACT REALITIES
 
+![A photo with the text "React realities" and a subtext of "Easily embed 3D models, scenes, or interactive content within your React components"](https://github.com/kohasummons/react-realities-fork/assets/66284362/740f35f6-c70e-4fbe-8cde-a3b3debe502d)
+
 React Realities is a versatile React library designed to simplify the integration of various 3D viewers on the frontend. It brings together popular 3D viewer libraries like ModelViewer, Three.js, and A-Frame, providing a centralized and easy-to-use solution to incorporate any of these viewers into your React projects.
 
 Features
